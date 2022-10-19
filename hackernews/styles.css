@@ -45,13 +45,27 @@ section {
     background: #f6f6ef;
 }
 article{
+    display: inline-flex;
     font-family: Verdana, Geneva, sans-serif;
     font-size: 10pt;
     word-break: break-word;
+}
+.number{
+    display: inline-flex;
 }
 img {
     margin-left: 5px;
     border: 1px solid #fff;
     width: 20px;
     height: 20px;
+}
+.container section article img{
+    width: 10px;
+    height: 10px;
+}
+.site {
+    cursor: pointer;
+    color: #828282;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 8pt;
 }
